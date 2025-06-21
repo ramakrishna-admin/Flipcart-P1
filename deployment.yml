@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: ramakrishna737:pflipcart:v1
+        image: ramakrishna737/pflicart:v1
         ports:
         - containerPort: 3000
   

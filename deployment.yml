@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flipcart
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: flip
+  template:
+    metadata:
+      label:
+        app: flip
+    spec:
+      containers:
+      - name: tetris
+        image: ramakrishna737:pflipcart:v1
+        ports:
+        - containerPort: 8081
+  

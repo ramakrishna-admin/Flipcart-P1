@@ -5,7 +5,7 @@ metadata:
   name: tetris-service
 spec:
   selector:
-    app: tflip
+    app: flip
   ports:
   - protocol: TCP
     port: 80                 # Expose port 80

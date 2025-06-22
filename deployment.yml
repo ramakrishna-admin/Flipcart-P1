@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kittu
+  name: flip-clone
 spec:
   replicas: 3
   selector:

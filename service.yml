@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tetris-service
+  name: flipcart-clone
 spec:
   selector:
     app: flip
